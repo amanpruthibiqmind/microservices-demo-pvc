@@ -819,7 +819,7 @@ spec:
             memory: 200Mi
       volumes:
       - name: redis-data
-	persistentVolumeClaim:
+        persistentVolumeClaim:
           claimName: redis
 ---
 apiVersion: v1
